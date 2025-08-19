@@ -1,0 +1,15 @@
+# Backend secrets
+backend/.env
+
+# Frontend secrets
+.streamlit/secrets.toml
+
+# Database file
+backend/learning_platform.db
+backend/learning_content.db
+
+# Python virtual environment
+genai_env/
+
+# macOS specific files
+.DS_Store

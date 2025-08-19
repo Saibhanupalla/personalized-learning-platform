@@ -1,0 +1,104 @@
+altair==5.5.0
+annotated-types==0.7.0
+anyio==4.10.0
+attrs==25.3.0
+blinker==1.9.0
+brotlicffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_05qpoetyrv/croot/brotlicffi_1736182869800/work
+cachetools==6.1.0
+certifi @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_541lf40aku/croot/certifi_1754570641531/work/certifi
+cffi @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_51d1gdg4kr/croot/cffi_1736183297412/work
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+click==8.2.1
+distro==1.9.0
+fastapi==0.116.1
+filelock @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_90zocybn3d/croot/filelock_1744281394121/work
+fsspec==2025.7.0
+gitdb==4.0.12
+GitPython==3.1.45
+gmpy2 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a9jzez1qcu/croot/gmpy2_1738085473561/work
+h11==0.16.0
+hf-xet==1.1.7
+httpcore==1.0.9
+httptools==0.6.4
+httpx==0.28.1
+huggingface-hub==0.34.4
+idna @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_2b_jn555_n/croot/idna_1714398852258/work
+Jinja2 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f4xtf61_ib/croot/jinja2_1741715270435/work
+jiter==0.10.0
+joblib==1.5.1
+jsonpatch==1.33
+jsonpointer==3.0.0
+jsonschema==4.25.0
+jsonschema-specifications==2025.4.1
+langchain-core==0.3.74
+langchain-openai==0.3.30
+langgraph==0.6.5
+langgraph-checkpoint==2.1.1
+langgraph-prebuilt==0.6.4
+langgraph-sdk==0.2.0
+langsmith==0.4.14
+MarkupSafe @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_76vhch455b/croot/markupsafe_1738584048225/work
+mkl-fft @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_af8wl3mjfu/croot/mkl_fft_1695058185839/work
+mkl-random @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_0fq2s894lk/croot/mkl_random_1695059822529/work
+mkl-service==2.4.0
+mpmath @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_8fyoqwupl2/croot/mpmath_1690848275746/work
+narwhals==2.1.2
+networkx @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ba1do7fwxc/croot/networkx_1737043398715/work
+numpy @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_b7iptlxgej/croot/numpy_and_numpy_base_1708638622773/work/dist/numpy-1.26.4-cp311-cp311-macosx_10_9_x86_64.whl#sha256=3bf79c94c35598ae09c687371bfc007b468f0f9ce08e944366b60431f3a9a4fe
+openai==1.99.9
+orjson==3.11.2
+ormsgpack==1.10.0
+packaging==24.2
+pandas==2.3.1
+pillow @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a48h7ifhf6/croot/pillow_1744613605363/work
+pinecone==7.3.0
+pinecone-client==6.0.0
+pinecone-plugin-assistant==1.7.0
+pinecone-plugin-interface==0.0.7
+protobuf==6.32.0
+pyarrow==21.0.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.11.7
+pydantic_core==2.33.2
+pydeck==0.9.1
+PySocks @ file:///Users/ec2-user/ci_py311/pysocks_1678315868424/work
+python-dateutil==2.9.0.post0
+python-dotenv==1.1.1
+pytz==2025.2
+PyYAML @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_34t43scp15/croot/pyyaml_1728658999838/work
+referencing==0.36.2
+regex==2025.7.34
+requests @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_3c5r_7_lxu/croot/requests_1750426340266/work
+requests-toolbelt==1.0.0
+rpds-py==0.27.0
+safetensors==0.6.2
+scikit-learn==1.7.1
+scipy==1.16.1
+sentence-transformers==5.1.0
+six==1.17.0
+smmap==5.0.2
+sniffio==1.3.1
+starlette==0.47.2
+streamlit==1.48.1
+sympy @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_3ej0z2jk7t/croot/sympy_1738108502551/work
+tenacity==9.1.2
+threadpoolctl==3.6.0
+tiktoken==0.11.0
+tokenizers==0.21.4
+toml==0.10.2
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
+tornado==6.5.2
+tqdm==4.67.1
+transformers==4.55.2
+typing-inspection==0.4.1
+typing_extensions @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6dn2s8ln8g/croot/typing_extensions_1734714858107/work
+tzdata==2025.2
+urllib3 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f8xnjmnanx/croot/urllib3_1750775879857/work
+uvicorn==0.35.0
+uvloop==0.21.0
+watchfiles==1.1.0
+websockets==15.0.1
+xxhash==3.5.0
+zstandard==0.24.0
