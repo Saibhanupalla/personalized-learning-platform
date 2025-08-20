@@ -2,8 +2,10 @@ fastapi
 uvicorn
 python-dotenv
 openai
-pinecone-client
+pinecone
 sentence-transformers
 torch
 torchvision
 torchaudio
+langgraph
+langchain_openai
