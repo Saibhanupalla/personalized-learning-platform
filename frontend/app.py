@@ -6,7 +6,7 @@ import hmac # Used for secure password checking
 
 # --- Configuration ---
 # We will change this to the live URL after deploying the backend
-BACKEND_BASE_URL = "http://127.0.0.1:8000" 
+BACKEND_BASE_URL = "https://learning-platform-api-w9nl.onrender.com" 
 
 # --- Page Setup ---
 st.set_page_config(page_title="Personalized Learning Platform", layout="wide", initial_sidebar_state="expanded")
