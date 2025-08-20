@@ -106,14 +106,6 @@ else:
     # --- Teacher View ---
     if st.session_state.role == 'teacher':
         st.header("Teacher Dashboard")
-        st.subheader("Research Simulation")
-        st.write("This will generate simulated data to test the recommendation engine.")
-        if st.button("Run Experiment Simulation", type="primary"):
-            with st.spinner("Simulating student sessions..."):
-                response = api_request('post', '/simulate-experiment')
-                if response:
-                    st.success("Simulation complete! You can now test the recommendation feature in the student view.")
-        st.write("---")
         st.subheader("Create a New Course")
         with st.form("new_course_form", clear_on_submit=True):
             course_name = st.text_input("Course Name")
