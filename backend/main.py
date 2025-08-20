@@ -161,7 +161,7 @@ def generate_adapted_content(request: AdaptationRequest):
         lesson_title_tuple = cursor.fetchone()
         conn.close()
         lesson_title = lesson_title_tuple[0] if lesson_title_tuple else "Unknown Topic"
-        return {"lesson_id": lesson_id, "lesson_title": lesson_title, "learning_style": style, "content_type": cached["content_type"], "data": cached["data"], "quiz_data": cached.get("quiz_data")}
+        return {"lesson_id": lesson_id, "lesson_title": lesson_title, "learning_style": style, "content_type": cached["content_type"], "data": cached["data"]}
     
     print(f"Lesson {lesson_id} ({style}) not in cache. Generating new content.")
     conn = sqlite3.connect(DATABASE_NAME)
@@ -189,7 +189,6 @@ def generate_adapted_content(request: AdaptationRequest):
         prompt = f"Rewrite the following text in a clear, well-structured format. Text: '{original_text}'"
         content_data = {"text": generate_text_from_gpt(prompt)}
     
-    # We no longer generate a quiz here, the Socratic tutor replaces it
     database.cache_content(lesson_id, style, content_type, content_data, None)
     
     return {"lesson_id": lesson_id, "lesson_title": lesson_title, "learning_style": style, "content_type": content_type, "data": content_data}
@@ -262,3 +261,4 @@ def recommend_style(lesson_id: int):
     if result and result[1] >= 4.0:
         return {"recommended_style": result[0]}
     return {"recommended_style": None}
+

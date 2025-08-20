@@ -49,12 +49,14 @@ def init_db():
     """)
     
     # Table to store results from the Socratic Tutor
+    cursor.execute("DROP TABLE IF EXISTS socratic_dialogues")
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS socratic_dialogues (
+        CREATE TABLE socratic_dialogues (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             lesson_id INTEGER NOT NULL,
             session_id TEXT NOT NULL,
             style TEXT NOT NULL,
+            group_name TEXT NOT NULL, -- Add this line
             conversation_history TEXT NOT NULL,
             understanding_score INTEGER,
             FOREIGN KEY (lesson_id) REFERENCES lessons (id)
